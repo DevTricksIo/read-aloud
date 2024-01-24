@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leitor de Texto</title>
+</head>
+<body>
+    <header>
+        <h1>Read aloud</h1>
+    </header>
+
+    <section>
+        <button id="playButton" type="button" onclick="readAloud()">Play</button>
+        <label for="languageDropdown">Selecione um idioma:</label>
+        <select id="voiceSelect" name="language">
+        </select>
+    </section>
+
+    <section>
+        <label for="textInput">Digite o texto:</label>
+        <textarea id="textInput" rows="4" cols="50" placeholder="Digite o texto a ser lido..."></textarea>
+    </section>
+
+    <footer>
+        <p>Créditos:</p>
+        <p>Alexandre Tavares</p>
+        <p>Site: <a href="https://dev-tricks.xyz">dev-triks.xyz</a></p>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
